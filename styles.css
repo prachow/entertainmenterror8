@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+   
+    overflow-y: scroll; /* Enable vertical scrollbar */
+}
+/* styles.css */
+
+body {
+    /* Set a background color for the entire page */
+    background-color: #ffffff; /* Adjust the color as needed */
+    color: #333333; /* Set the default text color */
+}
+
+h2 {
+    /* Increase the contrast for the heading */
+    color: #000000; /* Set a dark color for the heading text */
+    background-color: #ffffff; /* Set a light background color for the heading */
+}
+
+/* Add other styles as needed */
+
+/* Add this style to increase contrast for the header */
+header h1 {
+    color: #ffffff; /* Set the text color to white or a color with higher contrast */
+}
+
+/* Optional: Add a background color to the header for better contrast */
+header {
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff; /* Set the text color to white for higher contrast */
+    padding: 20px;
+}
+
+
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+
+
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .video-container, .input-fields, .image-gallery {
+    margin-bottom: 30px;
+}
+
+.description p {
+    color: #ffffff; /* Set the text color to white or a color with higher contrast */
+    background-color: #333333; /* Set a dark background color for better contrast */
+    padding: 20px; /* Add padding for better spacing */
+}
+.description {
+    color: #333333; /* Set the text color to a dark color */
+    background-color: #ffffff; /* Set a light background color for better contrast */
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Set a lighter text color for better contrast */
+}
